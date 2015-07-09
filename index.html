@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="desktop.css">
+
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.16/angular.min.js"></script>
+   		<script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    </head>
+    <body ng-app=''>
+        <div class="container" ng-app='app'>
+        	<header>
+        		<div id="headerMid">
+	        		<ul>
+	        		    <li>Shots</li>
+	        		    <li>Designers</li>
+	        		    <li>Teams</li>
+	        		    <li>Meetups</li>
+	        		    <li>Jobs</li>
+	        		    <li>...</li>
+	        		</ul>
+	        		<input type="text" style="width:190px" placeholder="Search">
+	        		<a href="#">Sign In</a>
+	        		<a href="#">Sign Up</a>
+        		</div>
+        	</header>
+        	<div id="content">
+        		<div id="learnMore">
+        			<p>
+        				<b>What are you working on?</b> Dribbble is show and tell for designers.
+        				<a href="#"><button style="background:grey;color:white;"><b>Learn More</b></button></a>
+        				<a href="#"><button style="background:#ea4c89;color:white;"><b>Sign Up</b></button></a>
+        			</p>
+        		</div>
+        		<div id="menu">
+        			<ul>
+        			    <li>Popular</li>
+        			    <li>Shots</li>
+        			    <li>Now</li>
+        			</ul>
+        		</div>
+        		<div id="group" ui-view>
+        			<ul>
+        				<!--Row One -->
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div class="groupItemBottom">
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li style="margin-right: 0">
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <!--Row Two -->
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li style="margin-right: 0">
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <!--Row Three -->
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li>
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			    <li style="margin-right: 0">
+        			    	<div class="groupItem">
+								<img src="#" class="groupMainPic" alt="Group Picture">
+								<section>
+									<img src="" class="paperclip" alt="P">
+									<img src="" class="eye" alt="E">
+									<img src="" class="message" alt="M">
+									<img src="" class="heart" alt="H">
+								</section>
+							</div>
+							<div>
+								<img src="" alt="">
+								<a href=""></a>
+							</div>
+        			    </li>
+        			</ul>
+        			<!-- End Group -->
+        			<div id="groupBottom">
+        				<div id="nextButton"><h1>></h1></div>
+        			</div>
+        		</div>
+        			<!-- Content Bottom -->
+        		<div id="contentBottom">
+        			<ul>
+        			    <li>
+        			    	<h3>Equipment Shop</h3>
+        			    	<img src="" style="width:100px;height:94px;" alt="Shirt">
+        			    	<p style="float:right;">
+        			    		Threads and goods for designers like you. Grab a 
+        			    		tee or three at our <a href="">official Equipment Shop.</a>
+        			    	</p>
+        			    </li>
+        			    <li>
+        			    	<h3>Jobs for Designers</h3>
+        			    	<ol>
+        			    	    <li>
+        			    	    	<h4><b>Tock</b></h4>
+        			    	    	<h4>UI Designs</h4>
+        			    	    </li>
+        			    	    <li>
+        			    	    	<h4><b>Wistia</b></h4>
+        			    	    	<h4>Illustrator/Designer</h4>
+        			    	    </li>
+        			    	</ol>
+        			    </li>
+        			    <li style="margin-right:0px;">
+        			    	<h3>Ads via The Deck</h3>
+        			    	<img src="" style="width:120px;height:90px;" alt="Pencil">
+        			    	<p style="float: right; width: 160px;">Type for the great outdoors? <a href="">Discover typography</a> at H&Co.</p>
+        			    </li>
+        			</ul>
+        		</div>
+        			<!-- End Content Bottom -->
+        	</div>
+        	<footer>
+        		<div id="footerContent">
+        			<div id="footerContentDiv">
+        				<h3>Show and tell for designers</h3>
+        				<p>
+        					What are you working on? Dribbble is a community of designers sharing screenshots of their work, process, and projects.
+        				</p>
+        			</div>
+        			<ul>
+        				<h4><b>Company</b></h4>
+        			    <li><h4>About</h4></li>
+        			    <li><h4>Help</h4></li>
+        			    <li><h4>Contact</h4></li>
+        			    <li><h4>Terms</h4></li>
+        			    <li><h4>Privacy</h4></li>
+        			    <li><h4>Shop</h4></li>
+        			</ul>
+        			<ul>
+        				<h4><b>Community</b></h4>
+        			    <li><h4>Blog</h4></li>
+        			    <li><h4>Meetups</h4></li>
+        			    <li><h4>Testimonials</h4></li>
+        			    <li><h4>Handbook</h4></li>
+        			    <li><h4>Brand Guidelines</h4></li>
+        			</ul>
+        			<ul style="margin-right: 0px">
+        				<h4><b>Connect</b></h4>
+        			    <li><h4>Find Designers</h4></li>
+        			    <li><h4>Jobs for Designers</h4></li>
+        			    <li><h4>Go Pro</h4></li>
+        			    <li><h4>Teams</h4></li>
+        			    <li><h4>Advertise</h4></li>
+        			    <li><h4>API</h4></li>
+        			</ul>
+        			<div id="bottomP">
+        				<p>Copyright © 2009–2015 Dribbble LLC. All screenshots © their respective owners. Shipped from Salem, Mass. USA.</p>
+        			</div>
+        			<ol>
+        				<h2>361,656,879,982</h2>
+        		    	<li>pixels dribbbled</li>
+        			</ol>
+        			<div id="socialLinks">
+	        			<img src="" alt="Twitter">
+	        			<img src="" alt="Facebook">
+	        			<img src="" alt="Instagram">
+	        			<img src="" alt="Blog">
+        			</div>
+        		</div>
+        	</footer>
+        </div>
+    </body>
+</html>
